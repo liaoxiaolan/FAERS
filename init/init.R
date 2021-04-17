@@ -3,6 +3,7 @@
 # Created by: mac
 # Created on: 2021/4/17
 
+source("init/dataimport.R")
 dataimport("demotest", "/Users/mac/FAERdata/faers_ascii_2020Q4/ASCII/DEMO20Q4.txt")
 
 dataimport <- function(tableName, filename,...) {
